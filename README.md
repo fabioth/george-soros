@@ -8,7 +8,7 @@ The George Soros Tradingview bot is named after the Hungarian-American billionai
 
 This bot is based on NodeJS and uses a Chrome headless browser. To run this bot the chrome browser needs to be running in headless mode. More information about chrome headless can be found [here](https://developers.google.com/web/updates/2017/04/headless-chrome).
 
-Create an Telegram bot token. [more information](https://core.telegram.org/bots)
+Create an Telegram bot token. [More information here](https://core.telegram.org/bots)
 
 Install NodeJS. [Download here](https://nodejs.org/en/)
 
