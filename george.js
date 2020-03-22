@@ -37,7 +37,7 @@ bot.command(['chart', 'c'], (ctx) => {
 
         try {
             await Page.enable();
-            await Page.navigate({url: 'https://www.tradingview.com/widgetembed/?frameElementId=tradingview_c4872&symbol='+ correctSymbol +'&interval='+ interval +'&hidesidetoolbar=1&symboledit=1&saveimage=1&toolbarbg=f1f3f6&studies=StochasticRSI%40tv-basicstudies&theme=dark&style=1&timezone=Europe%2FBerlin&studies_overrides={}&overrides={}&enabled_features=[]&disabled_features=[]&locale=en'});
+            await Page.navigate({url: 'https://www.tradingview.com/widgetembed/?frameElementId=tradingview_c4872&symbol='+ correctSymbol +'&interval='+ interval +'&hidesidetoolbar=1&symboledit=1&saveimage=1&toolbarbg=f1f3f6&studies=RSI%40tv-basicstudies&theme=dark&style=1&timezone=Europe%2FBerlin&studies_overrides={}&overrides={}&enabled_features=[]&disabled_features=[]&locale=en'});
             await Page.loadEventFired();
             await Emulation.setDeviceMetricsOverride(device);
             await Emulation.setVisibleSize({width: 960, height: 750});
